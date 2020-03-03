@@ -23,18 +23,18 @@ public class FlamesCheckService
 		label: for(int i=0;i<a;i++)
 		{
 			char c=s1.charAt(i);
-		//	System.out.println(c);
+		
 			for(int j=0;j<b;j++)
 			{
 				char d=s2.charAt(j);
 				if(c==d)
 				{
-					 ////k++;
+					 
 					 s1.deleteCharAt(i);
 					 s2.deleteCharAt(j);
-					 ////System.out.println(s1 +" " +s2);
+					
 					 a=s1.length();
-					 //m=a;
+					
 					 b=s2.length();
 					 i=0;
 					 j=0;
